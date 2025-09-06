@@ -88,33 +88,34 @@ const Index = () => {
       ]
     }
   ];
+const certifications = [
+  {
+    title: "Data Science 101",
+    issuer: "IBM SkillsBuild",
+    link: "/lovable-uploads/12a50b83-ce6b-46ff-a92e-70d9c667c343.png",
+    badge: "IBM" as const
+  },
+  {
+    title: "Data Science Methodology",
+    issuer: "IBM SkillsBuild", 
+    link: "/lovable-uploads/6df9eb8d-2f1f-494a-a1a9-b02a680b81b6.png",
+    badge: "IBM" as const
+  },
+  {
+    title: "Certificate in Computer Concepts (CCC)",
+    issuer: "NCITTS",
+    link: "/lovable-uploads/61a380d3-447f-4be8-805d-30e637217e27.png",
+    badge: "NCITTS" as const
+  },
+  {
+    title: "Code-A-Haunt 2.0 Hackathon Participation",
+    issuer: "Lovely Professional University",
+    link: "/lovable-uploads/715261d0-db10-4e98-af15-db6a8c5645f3.png",
+    badge: "LPU" as const
+  }
+];
 
-  const certifications = [
-    {
-      title: "Data Science 101",
-      issuer: "IBM SkillsBuild",
-      link: "public/lovable-uploads/12a50b83-ce6b-46ff-a92e-70d9c667c343.png",
-      badge: "IBM" as const
-    },
-    {
-      title: "Data Science Methodology",
-      issuer: "IBM SkillsBuild", 
-      link: "public/lovable-uploads/6df9eb8d-2f1f-494a-a1a9-b02a680b81b6.png",
-      badge: "IBM" as const
-    },
-    {
-      title: "Certificate in Computer Concepts (CCC)",
-      issuer: "NCITTS",
-      link: "public/lovable-uploads/61a380d3-447f-4be8-805d-30e637217e27.png",
-      badge: "NCITTS" as const
-    },
-    {
-      title: "Code-A-Haunt 2.0 Hackathon Participation",
-      issuer: "Lovely Professional University",
-      link: "public/lovable-uploads/715261d0-db10-4e98-af15-db6a8c5645f3.png",
-      badge: "LPU" as const
-    }
-  ];
+
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -410,7 +411,7 @@ const Index = () => {
                 </a>
                 
                 <a 
-                  href="https://www.linkedin.com/in/simran-ethicalhack"
+                  href="http://www.linkedin.com/in/simran-ethicalhacker"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-hacker-white/80 hover:text-matrix-green transition-all duration-300 group font-mono p-4 bg-black/20 rounded border border-matrix-green/20 hover:border-matrix-green/50"
